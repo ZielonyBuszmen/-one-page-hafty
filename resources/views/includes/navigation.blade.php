@@ -15,10 +15,10 @@
             <a href="#gallery" onclick=$("#menu-close").click();>Galeria</a>
         </li>
         <li>
-            <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+            <a href="#guest_book" onclick=$("#menu-close").click();>Księga gości</a>
         </li>
         <li>
-            <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            <a href="#contact" onclick=$("#menu-close").click();>Kontakt</a>
         </li>
     </ul>
 </nav>

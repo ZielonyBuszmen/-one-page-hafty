@@ -1,30 +1,29 @@
-<footer>
+<footer id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h4><strong>Start Bootstrap</strong>
-                </h4>
-                <p>3481 Melrose Place
-                    <br>Beverly Hills, CA 90210</p>
-                <ul class="list-unstyled">
-                    <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                <h3><strong>Kontakt</strong>
+                </h3>
+
+                <h4><ul class="list-unstyled">
+                    <li><i class="fa fa-phone fa-fw"></i> 507 134 256 </li>
+                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:kasieczek@gazeta.pl">kasieczek@gazeta.pl</a>
                     </li>
-                </ul>
+                </ul></h4>
                 <br>
-                <ul class="list-inline">
-                    <li>
-                        <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                    </li>
-                </ul>
+                {{--<ul class="list-inline">--}}
+                    {{--<li>--}}
+                        {{--<a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>--}}
+                    {{--</li>--}}
+                    {{--<li>--}}
+                        {{--<a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>--}}
+                    {{--</li>--}}
+                    {{--<li>--}}
+                        {{--<a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>--}}
+                    {{--</li>--}}
+                {{--</ul>--}}
                 <hr class="small">
-                <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                <p class="text-muted">Copyright &copy; hafty-kasi.cba.pl 2009 - {{date("Y")}}</p>
             </div>
         </div>
     </div>
