@@ -15,6 +15,8 @@
     <!-- Header -->
     @include('includes.header')
 
+    @include('includes.blue_imp.gallery')
+
     <!-- About -->
     @include('includes.about')
 

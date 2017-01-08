@@ -9,9 +9,10 @@
 <!-- Bootstrap Core CSS -->
 {{ Html::style('css/bootstrap.min.css') }}
 
-
 <!-- Custom CSS -->
 {{ Html::style('css/stylish-portfolio.css') }}
+
+{{ Html::style('blueimp_gallery/blueimp-gallery.min.css') }}
 
 <!-- Custom Fonts -->
 {{ Html::style('font-awesome/css/font-awesome.min.css') }}
