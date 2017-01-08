@@ -10,6 +10,7 @@
 
 {{ Html::script('blueimp_gallery/blueimp-gallery.min.js') }}
 
+<!-- BlueImp -->
 <script>
     document.getElementById('links').onclick = function (event) {
         event = event || window.event;
