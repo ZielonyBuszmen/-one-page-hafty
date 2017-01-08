@@ -2,6 +2,7 @@
 
     <h2>TODO:</h2>
      - ładne miniaturki w galerii<br><br>
+     - zrobić ładne logo w tle na początku -> może zamiast budynków miasta dać zdjęcia haftów? <br><br>
      - napisać księgę gości + zrobić do niej ładny wygląd + skopiować wpisy ze starej
 
 
