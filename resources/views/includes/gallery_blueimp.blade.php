@@ -1,4 +1,4 @@
-ss
+
 <div id="blueimp-gallery" class="blueimp-gallery">
     <div class="slides"></div>
     <h3 class="title"></h3>
@@ -8,7 +8,7 @@ ss
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
 </div>
-ss
+
 
 <div id="links">
     <a href="img/portfolio-1.jpg" title="Banana">

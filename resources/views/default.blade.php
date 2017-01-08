@@ -15,7 +15,8 @@
     <!-- Header -->
     @include('includes.header')
 
-    @include('includes.blue_imp.gallery')
+    <!-- Blueimp gallery LightBox  -> https://github.com/blueimp/Gallery#lightbox-setup -->
+    @include('includes.gallery_blueimp')
 
     <!-- About -->
     @include('includes.about')
