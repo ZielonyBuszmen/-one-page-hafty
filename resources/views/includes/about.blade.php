@@ -2,8 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                <h2>O mnie</h2>
+                <p class="lead">
+                    Mam na imię Kasia, od nie dawna zainspirował mnie haft krzyżykowy. Na stronie zamieszczam kilka swoich prac,
+                    proszę o opinię a zainteresowanych proszę o kontakt
+                </p>
             </div>
         </div>
         <!-- /.row -->

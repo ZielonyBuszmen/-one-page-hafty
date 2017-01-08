@@ -1,4 +1,4 @@
-
+<section id="gallery">
 <div id="blueimp-gallery" class="blueimp-gallery">
     <div class="slides"></div>
     <h3 class="title"></h3>
@@ -8,16 +8,24 @@
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
 </div>
+    <div id="links">
+
+<div class="row">
+    <div class="col-md-6">
 
 
-<div id="links">
     <a href="img/portfolio-1.jpg" title="Banana">
-        <img src="img/portfolio-1.jpg" alt="Banana">
+        <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg" alt="Banana">
     </a>
-    <a href="img/portfolio-2.jpg" title="Apple">
-        <img src="img/portfolio-2.jpg" alt="Apple">
-    </a>
-    <a href="img/portfolio-3.jpg" title="Orange">
-        <img src="images/thumbnails/orange.jpg" alt="Orange">
-    </a>
-</div>
+    </div>
+    <div class="col-md-6">
+
+    <a  href="img/portfolio-2.jpg" title="Apple">
+        <img class="img-portfolio img-responsive"src="img/portfolio-2.jpg" alt="Apple">
+    </a>    </div>
+
+
+
+</div></div>
+
+</section>
