@@ -12,30 +12,7 @@
 */
 
 
-function getPhotosDir()
-{
-    return './img/hafty/';
-}
-
-function getThumbDir()
-{
-    return './img/miniaturki/';
-}
-
-function getPhotos()
-{
-    $dir = getPhotosDir();
-    $result = [];
-    foreach (scandir($dir) as $file) {
-        if ($file != '.' && $file != '..') {
-            $result[] = $file;
-        }
-    }
-    return $result;
-}
-
-
-
-Route::get('/', function () {
-    return view('default', ['photos' => getPhotos(), 'photo_dir' => getPhotosDir(), 'thumb_dir' => getThumbDir()]);
+Route::get('/', function (\App\Repositories\PhotoRepository $repo) {
+    $repo->getAll();
+    return view('default', ['photos' => $repo->getAll()]);
 });
