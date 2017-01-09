@@ -10,22 +10,22 @@
         <ol class="indicator"></ol>
     </div>
     <div id="links">
-
-
+        <div class="container-fluid">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h1> <b>Galeria</b></h1>
+                    <h1><b>Galeria</b></h1>
                 </div>
             </div>
-        <div class="row">
-            @foreach($photos as $photo)
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a href="{{url($photo['photo'])}}" class="thumbnail" href="#">
-                    <img class="img-responsive" src="{{$photo['thumbnail']}}" alt="">
-                </a>
-            </div>
-            @endforeach
+            <div class="row">
+                @foreach($photos as $photo)
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <a href="{{url($photo['photo'])}}" class="thumbnail" href="#">
+                            <img class="img-responsive" src="{{$photo['thumbnail']}}" alt="">
+                        </a>
+                    </div>
+                @endforeach
 
+            </div>
         </div>
     </div>
 
