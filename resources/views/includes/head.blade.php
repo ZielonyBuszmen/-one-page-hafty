@@ -4,7 +4,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Stylish Portfolio - Start Bootstrap Theme</title>
+<title>Haft krzyżykowy Kasi</title>
 
 <!-- Bootstrap Core CSS -->
 {{ Html::style('css/bootstrap.min.css') }}
