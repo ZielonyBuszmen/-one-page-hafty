@@ -5,6 +5,12 @@
             <div class="col-lg-10 col-lg-offset-1">
                 <h2>Księga gości</h2>
                 <hr class="small">
+
+                <h2>TODO:</h2>
+                - zrobić ładne logo w tle na początku -> może zamiast budynków miasta dać zdjęcia haftów? <br><br>
+                - napisać księgę gości + zrobić do niej ładny wygląd + skopiować wpisy ze starej
+
+
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                         <a href="#" class="btn btn-lg btn-light">Click Me!</a>

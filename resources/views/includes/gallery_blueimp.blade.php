@@ -1,10 +1,5 @@
 <section id="gallery">
 
-    <h2>TODO:</h2>
-    - zrobić ładne logo w tle na początku -> może zamiast budynków miasta dać zdjęcia haftów? <br><br>
-    - napisać księgę gości + zrobić do niej ładny wygląd + skopiować wpisy ze starej
-
-
     <div id="blueimp-gallery" class="blueimp-gallery">
         <div class="slides"></div>
         <h3 class="title"></h3>
