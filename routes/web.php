@@ -11,8 +11,10 @@
 |
 */
 
-
-Route::get('/', function (\App\Repositories\PhotoRepository $repo) {
-    $repo->getAll();
-    return view('default', ['photos' => $repo->getAll()]);
+/**
+ * Zmienna "photos" jest automatycznie dodawana do widoku includes.gallery_blueimp
+ *  przez ComposerServiceProvider => PhotoComposer
+ */
+Route::get('/', function () {
+    return view('default');
 });
