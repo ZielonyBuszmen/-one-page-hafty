@@ -1,5 +1,10 @@
 Bla bla bla
 
+## TODO:
+- napisać księgę gości + zrobić do niej ładny wygląd + skopiować wpisy ze starej
+
+
+
 Instalować do HTML tylko:
 `composer require laravelcollective/html`
 
