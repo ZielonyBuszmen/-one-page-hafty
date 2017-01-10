@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
-                <h3><strong>Kontakt</strong>
+                <h3><strong>{{ trans('messages.contact') }}</strong>
                 </h3>
 
                 <h4><ul class="list-unstyled">

@@ -13,7 +13,7 @@
         <div class="container-fluid">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h1><b>Galeria</b></h1>
+                    <h1><b>{{ trans('messages.gallery') }}</b></h1>
                 </div>
             </div>
             <div class="row">

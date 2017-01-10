@@ -6,10 +6,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 style="font-weight: 900">O mnie</h2>
+                <h2 style="font-weight: 900">{{ trans('messages.about_me') }}</h2>
                 <p class="lead" style="font-weight: 500">
-                    Mam na imię Kasia, od nie dawna zainspirował mnie haft krzyżykowy. Na stronie zamieszczam kilka swoich prac,
-                    proszę o opinię a zainteresowanych <a href="#contact" >proszę o kontakt</a>
+                    {{ trans('messages.about_me_desc') }} <a href="#contact" > {{ trans('messages.about_me_contact') }}</a>
                 </p>
             </div>
         </div>
