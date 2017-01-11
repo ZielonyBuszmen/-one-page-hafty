@@ -1,6 +1,9 @@
-# Co to jest?
-A tu jakiś opis
+# [one-page] Hafty
+Prosta stronka oparta na technologi "one-page". Wykorzystany został framework PHP Larevel 5.3, Bootstrap, jakaś "całkiem-spoko" galeria zdjęć i Angular2.
+Działającą stronę można znaleźć pod adresem: http://hafty-kasi.cba.pl/
 
+## Instalacja
+Standardowo -> pobieramy projekt do folderu `htdocs` Xamppa, albo do `www` Wampa (lampa, trampa, itp). Następnie otwieramy terminal (konsolę) w folderze z projektem i wpisujemy `composer install`, a potem `composer dump`. Tak, projekt wymaga zainstalowanego composera.
 
 ## Dodawanie nowych zdjęć:
  - Duże zdjęcia znajdują się w `public/img/hafty`. Na podstawie tego katalogu skrypt tworzy array'a z odnośnikami do zdjęć.
@@ -8,17 +11,16 @@ A tu jakiś opis
  - Ustawienia odnośnie lokalizacji folderu ze zdjęciami oraz cały krypt który przeszukuje te foldery znajdziemy w pliku `app/Repositories/PhotoRepository.php`. Metoda `getAll()` zwraca gotowego array'a z linkami do zdjęć i miniaturek. Wynik tej funkcji jest zwracany do widoku `resources/views/includes/gallery_blueimp.blade.php`. Nie jest to robione standardowo przez kontroler lub router, tylko poprzez tzw. "ViewComposer" o nazwie `PhotoComposer` (lokalizacja `app\Console\Http\ViewComposers\PhotoComposer.php`). Te dane są zwracane do zmiennej `$photos`, którą możemy używać w widoku.
  
  
-
 ## TODO:
 - napisać księgę gości + zrobić do niej ładny wygląd + skopiować wpisy ze starej
 
 
-
-Instalować do HTML tylko:
+### Info o Laravelu
+ - Został zainstalowany tzw. "HTML helper" o nazwie "laravel collective". Instalacja tego "dodatku" wymaga wpisania w konsoli:
 `composer require laravelcollective/html`
 
-Karwasz twarz!
 
+# Inne brednie
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
