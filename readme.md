@@ -1,9 +1,12 @@
-Bla bla bla
+# Co to jest?
+A tu jakiś opis
+
 
 ## Dodawanie nowych zdjęć:
- - Duże zdjęcia znajdują się w  `public/img/hafty`. Na podstawie tego katalogu skrypt tworzy array'a z odnośnikami do zdjęć.
- - Miniaturki są przechowywane w folderze `public/img/miniaturki`. Miniaturka musi nazywać się tak samo jak duże zdjęćie, i powinna mieć wymiary `400px x 300px`.
- - Ustawienia odnośnie lokalizacjifolderu ze zdjęciami oraz cały krypt który przeszukuje te foldery znajdziemy w pliku `app/Repositories/PhotoRepository.php`. Metoda `getAll()` zwraca gotowego array'a z linkami do zdjęć i miniaturek. Wynik tej funkcji jest zwracany do widoku `resources/views/includes/gallery_blueimp.blade.php`. Nie jest to robione standardowo przez kontroler lub router, tylko poprzez tzw. "ViewComposer" o nazwie `PhotoComposer` (lokalizacja `app\Console\Http\ViewComposers\PhotoComposer.php`) do zmiennej `$photos`.
+ - Duże zdjęcia znajdują się w `public/img/hafty`. Na podstawie tego katalogu skrypt tworzy array'a z odnośnikami do zdjęć.
+ - Miniaturki są przechowywane w folderze `public/img/miniaturki`. Miniaturka musi nazywać się tak samo jak duże zdjęcie. Powinna mieć wymiary `400px x 300px`.
+ - Ustawienia odnośnie lokalizacji folderu ze zdjęciami oraz cały krypt który przeszukuje te foldery znajdziemy w pliku `app/Repositories/PhotoRepository.php`. Metoda `getAll()` zwraca gotowego array'a z linkami do zdjęć i miniaturek. Wynik tej funkcji jest zwracany do widoku `resources/views/includes/gallery_blueimp.blade.php`. Nie jest to robione standardowo przez kontroler lub router, tylko poprzez tzw. "ViewComposer" o nazwie `PhotoComposer` (lokalizacja `app\Console\Http\ViewComposers\PhotoComposer.php`). Te dane są zwracane do zmiennej `$photos`, którą możemy używać w widoku.
+ 
  
 
 ## TODO:
