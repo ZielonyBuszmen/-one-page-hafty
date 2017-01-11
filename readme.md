@@ -1,5 +1,12 @@
 Bla bla bla
 
+## Dodawanie nowych zdjęć:
+ - Duże zdjęcia znajdują się w  `public/img/hafty`. Na podstawie tego katalogu skrypt tworzy array'a z odnośnikami do zdjęć.
+ - Miniaturki są przechowywane w folderze `public/img/miniaturki`. Miniaturka musi nazywać się tak samo jak duże zdjęćie, i powinna mieć wymiary `400px x 300px`.
+ - Ustawienia odnośnie lokalizacjifolderu ze zdjęciami oraz cały krypt który przeszukuje te foldery znajdziemy w pliku `app/Repositories/PhotoRepository.php`. Metoda `getAll()` zwraca gotowego array'a z linkami do zdjęć i miniaturek. Wynik tej funkcji jest zwracany do widoku `resources/views/includes/gallery_blueimp.blade.php` poprzez tzw. "ViewComposer"
+ 
+
+
 ## TODO:
 - napisać księgę gości + zrobić do niej ładny wygląd + skopiować wpisy ze starej
 
