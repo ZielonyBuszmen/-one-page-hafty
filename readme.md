@@ -21,8 +21,3 @@ Na koniec wpisujemy komendę `gulp` by skompilować assety (pliki TypeScript) An
 ## TODO:
 - napisać księgę gości + zrobić do niej ładny wygląd + skopiować wpisy ze starej (księga gości na angularze2)
 - porobić parę rzeczy w Angularze2
-
-
-### Info o Laravelu
- - Został zainstalowany tzw. "HTML helper" o nazwie "laravel collective". Instalacja tego "dodatku" wymaga wpisania w konsoli:
-`composer require laravelcollective/html`
