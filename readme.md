@@ -4,8 +4,13 @@ Prosta stronka oparta na technologi "one-page". Wykorzystany został framework P
 Działającą stronę można znaleźć pod adresem: http://hafty-kasi.cba.pl/
 
 ## Instalacja
-Standardowo -> pobieramy projekt do folderu `htdocs` Xamppa, albo do `www` Wampa (lampa, trampa, itp). Następnie otwieramy terminal (konsolę) w folderze z projektem i wpisujemy `composer install`, a potem `npm install`. Tak, projekt wymaga zainstalowanego Composera oraz Node.js. Być moze będzie wymagane odlokowanie `php_intl.dll` w pliku `php.ini` w konfiguracji naszego serwera, ale to już jest spowodowane przez wymagania samego Laravela. 
-Następnie musimy przejść do pliku `node_modules/elixir-typescript/index.js` i zakomentować w nim linijkę: `//.pipe($.concat(paths.output.name))`
+Standardowo -> pobieramy projekt do folderu `htdocs` Xamppa, albo do `www` Wampa (lampa, trampa, itp). Następnie otwieramy terminal (konsolę) w folderze z projektem i wpisujemy `composer install`, a potem `npm install`. Tak, projekt wymaga zainstalowanego Composera oraz Node.js. 
+
+Być moze będzie wymagane odlokowanie `php_intl.dll` w pliku `php.ini` w konfiguracji naszego serwera, ale to już jest spowodowane przez wymagania samego Laravela. 
+
+Następnie musimy przejść do pliku `node_modules/elixir-typescript/index.js` i zakomentować w nim linijkę: `//.pipe($.concat(paths.output.name))`.
+
+Na koniec wpisujemy komendę `gulp` by skompilować assety (pliki TypeScript) Angulara 2.
 
 ## Dodawanie nowych zdjęć:
  - Duże zdjęcia znajdują się w `public/img/hafty`. Na podstawie tego katalogu skrypt tworzy array'a z odnośnikami do zdjęć.
