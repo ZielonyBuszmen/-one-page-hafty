@@ -45,3 +45,7 @@ Route::get('/locale/{locale}', function ($locale, \Illuminate\Http\Request $requ
     return redirect("/");
 })->where("locale", "(pl|en|es)");
 
+Route::get('/angular', function(){
+   return view('angular_test');
+});
+
